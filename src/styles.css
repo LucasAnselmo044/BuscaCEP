@@ -1,0 +1,64 @@
+.navbar-container {
+    width: 100%;
+  }
+  
+  .container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #025492;
+  }
+  
+  .title {
+    font-size: 65px;
+  }
+  
+  .containerInput {
+    background-color: #020620;
+    padding: 15px;
+    margin: 34px 0;
+    display: flex;
+    border-radius: 8px;
+  }
+  
+  .containerInput input {
+    background-color: transparent;
+    border: 0;
+    font-size: 20px;
+    outline: none;
+    color: rgb(255, 255, 255);
+  }
+  
+  .busca {
+    background-color: #02093B;
+    color: white;
+    outline: none;
+  }
+  
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .main h2 {
+    font-size: 35px;
+  }
+  
+  .main span {
+    font-size: 20px;
+  }
+  
+  @media (max-width: 620px) {
+    .title {
+      font-size: 55px;
+    }
+    
+    .main h2 {
+      font-size: 28px;
+    }
+  }
+  
